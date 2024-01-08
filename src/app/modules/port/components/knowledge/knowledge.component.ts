@@ -13,19 +13,19 @@ export class KnowledgeComponent {
 
   public arrayKnowLedge = signal<iknowledge[]>([
     {
-      src: 'assets/icons/html.svg',
+      src: 'assets/imgs/html5.svg',
       alt: 'Icone de html',
     },
     {
-      src: 'assets/icons/css.svg',
+      src: 'assets/imgs/css3.svg',
       alt: 'Icone de css',
     },
     {
-      src: 'assets/icons/java.svg',
+      src: 'assets/imgs/javascript.svg',
       alt: 'Icone de java',
     },
     {
-      src: 'assets/icons/angular.svg',
+      src: 'assets/imgs/angular1.svg',
       alt: 'Icone de angular',
     },  
     

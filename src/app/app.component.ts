@@ -10,7 +10,7 @@ import { ProjectsComponent } from './modules/port/components/projects/projects.c
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HomeComponent, KnowledgeComponent, HeaderComponent, ProjectsComponent],
-  template: '<app-home/>',
+  template: '<router-outlet></router-outlet>',
   
 })
 export class AppComponent {
