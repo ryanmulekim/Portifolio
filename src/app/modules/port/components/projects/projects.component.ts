@@ -19,7 +19,7 @@ export class ProjectsComponent {
       title: "NOME",
       width: '100px',
       height: '51px',
-      description: '<p>OLaaaaa</p>',
+      description: '<p>Ainda em criação...</p>',
       links:[
         {
           name: 'conheça o blog',

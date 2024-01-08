@@ -69,12 +69,12 @@
                     a{
                         display: flex;
                         justify-content: center;
-                        align-items: center;
+                        align-items: flex-start;
                         flex-direction: column;
                         text-decoration: none;
 
                         p{
-                            padding: 10px 0;
+                            padding: 3px 0;
                             
                         }
                         strong{
@@ -85,5 +85,26 @@
                 }
             }
         }   
+    }
+    @media(max-width: 750px){
+        aside{
+            nav{
+                ul{
+                    flex-direction: column;
+                    gap: 15px;
+
+                    li, li a{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        section{
+            flex-direction: column;
+            gap: 15px;
+            figure{
+                width: 100%;
+            }
+        }
     }
 }
